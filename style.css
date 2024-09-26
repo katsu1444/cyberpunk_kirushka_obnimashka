@@ -258,10 +258,13 @@ table {
 }
 
 .xboxps {
-  height: 1000px;
-  background-image: url("Rectangle 22 1.png");
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  background-image: 22 1.png;
+}
+
+.stock {
+  padding-left: 320px;
 }
