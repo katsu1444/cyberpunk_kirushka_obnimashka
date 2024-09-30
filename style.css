@@ -259,12 +259,16 @@ table {
 
 .xboxps {
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 200px;
   width: 100%;
   background-color: black;
-  background-image: 22 1.png;
+  background-image: url('22\ 1.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .stock {
-  padding-left: 320px;
+  
 }
