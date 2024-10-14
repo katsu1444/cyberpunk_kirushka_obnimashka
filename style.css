@@ -259,7 +259,7 @@ table {
 
 .xboxps {
   background-repeat: no-repeat;
-  height: 200px;
+  /* height: 200px; */
   width: 100%;
   background-color: black;
   background-image: url('22\ 1.png');
@@ -271,4 +271,48 @@ table {
 
 .stock {
   
+}
+
+.form {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: black;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+  width: 460px;
+}
+
+.form .text-input {
+  display: block;
+
+  background-color: black;
+  
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+
+  border: none;
+  border-bottom: 1px solid #777;
+
+  padding-bottom: 13px;
+
+  outline: none;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.form .text-input::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+.form .text-input:focus {
+  border-bottom: 1px solid #ccc;
 }
