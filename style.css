@@ -316,3 +316,18 @@ table {
 .form .text-input:focus {
   border-bottom: 1px solid #ccc;
 }
+
+.form button {
+  background-color: #F8F200;
+
+  padding: 19px 50px;
+
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: black;
+
+  cursor: pointer;
+}
