@@ -283,7 +283,9 @@ table {
   font-weight: 400;
   font-size: 62px;
   line-height: 63px;
-  color: white
+  color: white;
+  margin-top: 140px;
+  margin-left: 32px;
 }
 
 
