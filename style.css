@@ -304,22 +304,16 @@ table {
 
 .form .text-input {
   display: block;
-
   background-color: black;
-
   font-family: "Roboto";
   font-weight: 300;
   font-size: 18px;
   line-height: 21px;
   color: white;
-
   border: none;
   border-bottom: 1px solid #777;
-
   padding-bottom: 13px;
-
   outline: none;
-
   transition: all 0.5s ease-in-out;
 }
 
@@ -346,9 +340,26 @@ table {
 .zadnik {
   background: url("Group\ 216.png");
   display: flex;
+  background-size: cover;
+  width: 788px;
+  height: 456px;
+  justify-content: flex-end;
 }
 
 .formconcole {
   display: flex;
   justify-content: space-between;
+}
+
+.probel {
+  margin-left: 32px;
+  width: 296px;
+  height: 351px;
+  margin-top: 25px;
+}
+
+.xbox {
+  width: 296px;
+  height: 351px;
+  margin-top: 25px;
 }
