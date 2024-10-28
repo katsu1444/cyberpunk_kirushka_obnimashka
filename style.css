@@ -259,7 +259,7 @@ table {
   /* height: 200px; */
   width: 100%;
   background-color: black;
-  background-image: url('22\ 1.png');
+  background-image: url("22\ 1.png");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -288,8 +288,6 @@ table {
   margin-left: 32px;
 }
 
-
-
 .form {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -308,7 +306,7 @@ table {
   display: block;
 
   background-color: black;
-  
+
   font-family: "Roboto";
   font-weight: 300;
   font-size: 18px;
@@ -335,16 +333,22 @@ table {
 }
 
 .form button {
-  background-color: #F8F200;
-
+  background-color: #f8f200;
   padding: 19px 50px;
-
   font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-
   color: black;
-
   cursor: pointer;
+}
+
+.zadnik {
+  background: url("Group\ 216.png");
+  display: flex;
+}
+
+.formconcole {
+  display: flex;
+  justify-content: space-between;
 }
