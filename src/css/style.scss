@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Archangelsk";
-  src: url("fonts/archangelsk.eot"); /* IE 9 Compatibility Mode */
-  src: url("fonts/archangelsk.eot?#iefix") format("embedded-opentype"),
-    /* IE < 9 */ url("fonts/archangelsk.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("fonts/archangelsk.woff") format("woff"),
-    /* Firefox >= 3.6, any other modern browser */ url("fonts/archangelsk.ttf")
+  src: url("../fonts/archangelsk.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/archangelsk.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/archangelsk.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/archangelsk.woff") format("woff"),
+    /* Firefox >= 3.6, any other modern browser */ url("../fonts/archangelsk.ttf")
       format("truetype"),
-    /* Safari, Android, iOS */ url("fonts/archangelsk.svg#archangelsk")
+    /* Safari, Android, iOS */ url("../fonts/archangelsk.svg#archangelsk")
       format("svg"); /* Chrome < 4, Legacy iOS */
 }
 
@@ -149,7 +149,7 @@ table {
 .hero {
   width: 100%;
   height: 1000px;
-  background: url("img/11.png");
+  background: url("../img/11.png");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -259,7 +259,7 @@ table {
   /* height: 200px; */
   width: 100%;
   background-color: black;
-  background-image: url("img/22\ 1.png");
+  background-image: url("../img/22\ 1.png");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -338,7 +338,7 @@ table {
 }
 
 .zadnik {
-  background: url("img/Group\ 216.png");
+  background: url("../img/Group\ 216.png");
   display: flex;
   background-size: cover;
   width: 788px;

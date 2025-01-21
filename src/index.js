@@ -1,10 +1,5 @@
-function component(text) {
-  const element = document.createElement("h1");
-  element.textContent = text;
-  return element;
-}
+import './css/style.scss'
 
-document.body.prepend(component("Проект собран на Webpack"));
 function buttonClick() {
   const name = document.getElementsByTagName("input")[0].value;
   const email = document.getElementsByTagName("input")[1].value;
